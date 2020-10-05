@@ -1,5 +1,5 @@
 # Read dataset
-epc <- read.table("C:/Users/airscan/Documents/expts/Coursera/EDA/ExData_Plotting1/exdata_data_household_power_consumption/household_power_consumption.txt", header = TRUE, sep=";")
+epc <- read.table("exdata_data_household_power_consumption/household_power_consumption.txt", header = TRUE, sep=";")
 
 # Convert data formats
 epc$Date = as.Date(epc$Date, format= "%d/%m/%Y")
